@@ -1,0 +1,59 @@
+{
+  "menu": [
+    {
+      "id": "0",
+      "label": "Documents",
+      "path": "/",
+      "title": "Documents Folder",
+      "children": [
+        {
+          "id": "0-1",
+          "label": "Documents",
+          "path": "/",
+          "title": "Documents Folder",
+          "children": [
+            {
+              "id": "0-1-1",
+              "label": "Document 1",
+              "path": "/",
+              "title": "Documents 1"
+            }
+          ,            {
+            "id": "0-1-2",
+            "label": "Document 2",
+            "path": "/",
+            "title": "Documents 3"
+          }
+          ]
+        }
+      ]
+    },    {
+      "id": "1",
+      "label": "Desktop Folder 0",
+      "path": "/",
+      "title": "Desktop Folder",
+      "children": [
+        {
+          "id": "1-2",
+          "label": "Desktop Folder 1",
+          "path": "/",
+          "title": "Desktop Folder",
+          "children": [
+            {
+              "id": "1-2-1",
+              "label": "Desktop 1",
+              "path": "/",
+              "title": "Desktop 1"
+            }
+          ,            {
+            "id": "1-2-2",
+            "label": "Desktop 2",
+            "path": "/",
+            "title": "Desktop 3"
+          }
+          ]
+        }
+      ]
+    }
+  ]
+}

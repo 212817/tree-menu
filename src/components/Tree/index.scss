@@ -1,0 +1,42 @@
+  
+  .tree-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tree-container {
+    position: relative;
+    padding-left: 0.75rem;
+    list-style: none;
+    text-align: left;
+
+  }
+
+  .tree-head {
+    margin-left: 0.5rem;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;  
+  }
+  
+  .tree-node {
+    display: flex;
+    padding: 0.5rem 1.25rem;
+      &:hover {
+      background: #fff;
+      transition: background .4s;
+    }
+  }
+
+  .tree-toggler {
+    display: inline-block;
+    &.active {
+    transform: rotate(90deg);
+    }
+  }
+
+
