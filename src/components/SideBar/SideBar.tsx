@@ -6,6 +6,10 @@ import { ITree } from 'types/IMenuSidebar'
 import { getMenuService } from 'services/menuService'
 import './index.scss'
 
+/**
+ * It's a React component that fetches data from an API and renders a tree component with the data.
+ * @returns The SideBar component is being returned.
+ */
 export function SideBar() {
   const [menu, setMenu] = useState<ITree[]>([])
 
